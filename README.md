@@ -3,7 +3,7 @@ The Comfiest Way to make web APIs and static file servers with automated SSL Cer
 
 **WebWebWebs** lets you create a web server with APIs ***SUPER EASILY*** in just a few lines of code while also automatically getting free SSL certificates via [Let's Encrypt](https://www.letsencrypt.org) and renewing them.
 
-Just set your **domain** and **e-mail** address, and a SSL certificate will be retrieved and automatically renewed 30 days before expiration without a restart of your server or connections.
+Just set your **domain** and **e-mail** address, and a SSL certificate will be retrieved and automatically renewed 30 days before expiration with **ZERO DOWNTIME** without a restart of your server or connections.
 
 *If you just need a web server without SSL certificates, check out the regular, zero-dependency [WebWebWeb](https://www.github.com/instafluff/WebWebWeb)!*
 
