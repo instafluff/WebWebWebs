@@ -1,0 +1,34 @@
+{
+  "name": "webwebwebs",
+  "version": "1.0.0",
+  "description": "Automated SSL Certificates with WebWebWeb, the Comfiest Way to make web APIs and static file servers!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/instafluff/WebWebWebs.git"
+  },
+  "keywords": [
+    "Instafluff",
+    "Comfy",
+    "SSL",
+    "http",
+    "web",
+    "server",
+    "webwebweb"
+  ],
+  "author": "Instafluff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/instafluff/WebWebWebs/issues"
+  },
+  "homepage": "https://github.com/instafluff/WebWebWebs#readme",
+  "dependencies": {
+    "acme-client": "^3.3.1",
+    "comfyclock": "^1.0.0",
+    "debug": "^4.1.1",
+    "webwebweb": "^1.3.0"
+  }
+}
