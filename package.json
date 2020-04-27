@@ -1,6 +1,6 @@
 {
   "name": "webwebwebs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automated SSL Certificates with WebWebWeb, the Comfiest Way to make web APIs and static file servers!",
   "main": "index.js",
   "scripts": {
