@@ -94,13 +94,16 @@ comfyWeb[ "Run" ] = async ( port, opts ) => {
         await certificateRefresh( opts.domain, opts.email, opts.env );
         if( fs.existsSync( opts[ "Certificate" ] ) ) {
             comfyServer = proxyStart( port, opts );
+            return comfyServer;
         }
         else {
-            throw new Error( "No Certificate" );
+            console.warn( "WARNING: No Certificate" );
+            return proxyStart( port, opts );
         }
     }
     else {
-        throw new Error( "Domain not defined in options" );
+        console.warn( "WARNING: Domain not defined in options" );
+        return proxyStart( port, opts );
     }
 };
 
