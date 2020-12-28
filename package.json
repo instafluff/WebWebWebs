@@ -31,9 +31,9 @@
   },
   "homepage": "https://github.com/instafluff/WebWebWebs#readme",
   "dependencies": {
-    "acme-client": "^3.3.1",
+    "acme-client": "^4.1.2",
     "comfyclock": "^1.0.0",
-    "debug": "^4.1.1",
-    "webwebweb": "^1.3.0"
+    "debug": "^4.3.1",
+    "webwebweb": "^1.4.5"
   }
 }
