@@ -1,5 +1,5 @@
 # WebWebWebs
-The Comfiest Way to make web APIs and static file servers with automated SSL Certificates!
+The lightest alternative to ExpressJS with HTTPS. The Comfiest Way to make web APIs and static file servers with automated SSL Certificates!
 
 **WebWebWebs** lets you create a web server with APIs ***SUPER EASILY*** in just a few lines of code while also automatically getting free SSL certificates via [Let's Encrypt](https://www.letsencrypt.org) and renewing them.
 
